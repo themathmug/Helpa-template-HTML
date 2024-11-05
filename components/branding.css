@@ -1,0 +1,18 @@
+.branding-branding {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+}
+.branding-company-name {
+  color: rgb(34, 34, 35);
+}
+
+
+@media(max-width: 767px) {
+  .branding-company-name {
+    font-size: 21px;
+    line-height: 32px;
+  }
+}
